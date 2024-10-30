@@ -1,0 +1,135 @@
+.top
+{
+    display: flex;
+    background-color: rgb(19, 209, 209);
+    color: white;
+}
+.topleft
+{
+    position:relative;
+    top: 0px;
+    left:0px;
+}
+.topright
+{
+    position: absolute;
+    top: 0%;
+    right: 25px;
+}
+.topleft ul
+{
+    display: flex;
+    flex-direction: row;
+
+}
+.topleft ul li
+{
+    list-style: none;
+    margin-right: 25px;
+}
+.topright ul
+{
+    display: flex;
+    flex-direction: row;
+}
+.topright ul li
+{
+    list-style: none;
+    margin-left: 25px;
+}
+.content
+{
+    display: flex;
+    flex-direction: row;
+    height:50px ;
+}
+.icon
+{
+    position: absolute;
+    left: 25px;
+    color: aqua;
+}
+.content ul
+{
+    display: flex;
+    list-style: none;
+    position: absolute;
+    right: 25px;
+}
+.content ul li
+{
+    
+    margin-right: 25px;
+}
+.content ul :hover
+{
+    color: aqua;
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.upper
+{
+    display: block;
+    justify-content: center;
+}
+.color
+{
+    position: absolute;
+
+}
+.cont
+{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.835);
+    color: white;
+    padding: 50px;
+}
+.first h2
+{
+    color: aqua;
+}
+.first
+{
+    width:250px;
+    margin: 10px;
+}
+.second
+{
+    width: fit-content;
+    margin: 10px;
+    justify-content:start;
+
+}
+.second li
+{
+    list-style: none;
+}
+.second ul li:hover
+{
+    color: aqua;
+}
+.third
+{
+    width: fit-content;
+    margin: 10px;
+    justify-content:start;
+}
+.third li
+{
+    list-style: none;
+}
+.third ul li:hover
+{
+    color: cyan;
+}
+.fourth
+{
+    width: fit-content;
+    margin: 10px;
+    justify-content:start;
+}
